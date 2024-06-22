@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@radix-ui/colors/gray.css';
+@import '@radix-ui/colors/gray-dark.css';
+
+.resizable-textarea {
+  field-sizing: content;
+  min-height: 24px;
+  min-height: 41h;
+  resize: none;
+}
